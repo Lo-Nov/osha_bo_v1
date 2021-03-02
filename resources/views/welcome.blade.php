@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>RevenueSure Health</title>
+    <title>{{ config('global.title') }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -46,10 +46,10 @@
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
                         <h1 class="">
-                         <strong class="landing-title">NCCG HEALTH</strong>
+                         <strong class="landing-title">OSHA  KENYA</strong>
                         </h1>
                         <blockquote>
-                            <p>The City of Choice to invest, work and live in.</p>
+                            <p>Ensure safe and healthful working conditions for employees</p>
                         </blockquote>
                         <div class="col-12 landing-module-header p-0">
                             <div class="col-2 p-0">
@@ -61,16 +61,16 @@
                                   <!-- Lab -->
                                   <a href="{{ route('login') }}" class="module-content my-3 mx-3">
                                     <div><span class="flaticon-dropper"></span></div>
-                                    <span class="module-content-text">Lab Tech</span>
+                                    <span class="module-content-text">Practitioner</span>
                                 </a>
 
                             <!-- Doctors -->
                             <a href="{{ route('login') }}" class="module-content my-3 mr-3">
                                 <div><span class="flaticon-doctor"></span></div>
-                                <span class="module-content-text">Doctors</span>
+                                <span class="module-content-text">OSHA Admin</span>
                             </a>
 
-                                
+
                             <!-- Corporates -->
                             <a href="{{ route('login') }}" class="module-content cop my-3 ml-3">
                                 <div><span class="flaticon-team"></span></div>
@@ -91,7 +91,7 @@
                     <div class="device-container">
 
                         <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                        <img src="img/county.png" class="img-fluid county_logo" alt="county logo">
+                        <img src="{{ asset('img/kenyalogo.png') }}" class="img-fluid county_logo" alt="county logo">
 
                     </div>
                 </div>

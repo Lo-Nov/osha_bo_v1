@@ -1,7 +1,7 @@
 <?php
 return [
     'url'=>'https://www.revenuesure.co.ke/RevenueSure/api/',
-    'title'=>'NCCG HEALTH | 2020',
+    'title'=>'OSHA | 2021',
     'health'=>'https://biller.revenuesure.co.ke/afya/',
     //'health'=>'https://test.revenuesure.co.ke/health/api/index.php',
     //'health'=>'http://10.12.49.47/health/api/index.php',
