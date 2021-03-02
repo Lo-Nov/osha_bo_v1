@@ -2,7 +2,7 @@
 return [
     'url'=>'https://www.revenuesure.co.ke/RevenueSure/api/',
     'title'=>'OSHA | 2021',
-    'health'=>'https://biller.revenuesure.co.ke/afya/',
+    'health'=>'https://osha.biller.co.ke/afya/',
     //'health'=>'https://test.revenuesure.co.ke/health/api/index.php',
     //'health'=>'http://10.12.49.47/health/api/index.php',
     'sub_counties'=>'https://biller.revenuesure.co.ke/permit/api',

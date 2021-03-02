@@ -46,7 +46,7 @@
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
                         <h1 class="">
-                         <strong class="landing-title">OSHA  KENYA</strong>
+                         <strong class="landing-title">OSHA  KENYA {{ date('Y') }}</strong>
                         </h1>
                         <blockquote>
                             <p>Ensure safe and healthful working conditions for employees</p>
@@ -60,22 +60,24 @@
                         <span class="module-holder">
                                   <!-- Lab -->
                                   <a href="{{ route('login') }}" class="module-content my-3 mx-3">
-                                    <div><span class="flaticon-dropper"></span></div>
+                                    <div><span class="flaticon-doctor"></span></div>
                                     <span class="module-content-text">Practitioner</span>
                                 </a>
 
                             <!-- Doctors -->
                             <a href="{{ route('login') }}" class="module-content my-3 mr-3">
-                                <div><span class="flaticon-doctor"></span></div>
+                                <div><span class="flaticon-dropper"></span></div>
                                 <span class="module-content-text">OSHA Admin</span>
                             </a>
 
 
-                            <!-- Corporates -->
+<!--
+                            &lt;!&ndash; Corporates &ndash;&gt;
                             <a href="{{ route('login') }}" class="module-content cop my-3 ml-3">
                                 <div><span class="flaticon-team"></span></div>
                                 <span class="module-content-text">Corporates</span>
                             </a>
+-->
 
 
                             <!-- Reports -->
